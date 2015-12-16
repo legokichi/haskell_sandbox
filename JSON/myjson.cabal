@@ -1,0 +1,15 @@
+Name: myjson
+Version: 0.0.0
+Synopsis: json
+Description:
+  unko
+Author: Real World Haskell reader
+Maintainer: legokichi
+
+Cabal-version: >= 1.2
+library:
+  Exposed-Modules: Prettify
+                   PrettyJSON
+                   SimpleJSON
+  Build-Depends: base >= 2.0
+  
