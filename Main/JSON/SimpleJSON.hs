@@ -2,7 +2,7 @@
   Real World Haskell chaptor 5
 -}
 
-module SimpleJSON
+module JSON.SimpleJSON
   ( JValue(..)
   , getString
   , getInt
