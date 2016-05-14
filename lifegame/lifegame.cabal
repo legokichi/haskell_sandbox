@@ -15,10 +15,11 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lifegame
+  exposed-modules:     LifeGame
   build-depends:       base >= 4.7 && < 5
                      , random
                      , array
+                     , mtl
   default-language:    Haskell2010
 
 executable lifegame-exe

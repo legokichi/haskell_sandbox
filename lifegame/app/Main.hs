@@ -1,6 +1,6 @@
 module Main where
 
-import Lifegame (game)
+import LifeGame (game)
 
 main :: IO ()
 main = game
