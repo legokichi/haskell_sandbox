@@ -1,9 +1,11 @@
 module Lib
     ( fun
     ) where
-import Control.Monad
+import Control.Monad (when)
 import Control.Monad.Cont (runCont, callCC)
 import Data.Char (digitToInt, intToDigit)
+
+-- http://www.sampou.org/haskell/a-a-monads/html/contmonad.html
 
 fun :: Int -> String
 fun n = (`runCont` id) $ do
